@@ -1,0 +1,36 @@
+{
+  "name": "ecnu-receipt-desk",
+  "private": true,
+  "version": "0.1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:local": "vite --host 127.0.0.1 --port 8030 --strictPort",
+    "build": "tsc -b && vite build",
+    "check": "tsc -b --pretty false",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview",
+    "build:portable-preview": "vite build --mode portable && vite build --mode portable --ssr server/standalone.ts --outDir dist/server",
+    "start:portable-preview": "node dist/server/standalone.js",
+    "test:portable-preview": "node scripts/smoke-portable-preview.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "@xyflow/react": "^12.11.2",
+    "lucide-react": "^0.468.0",
+    "playwright": "^1.62.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.9",
+    "yauzl": "3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@types/yauzl": "3.4.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
+  }
+}

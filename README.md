@@ -24,3 +24,16 @@
 ## 许可证
 
 本项目采用 [木兰宽松许可证，第 2 版](LICENSE)（Mulan PSL v2）。第三方依赖适用各自的许可证。
+
+## 参与开发
+
+需要 Node.js 24。克隆仓库后，在项目目录运行以下命令启动开发服务。服务默认监听本机 8030 端口。
+
+```bash
+npm ci
+npm run dev:local
+```
+
+提交 PR 前请运行 `npm run check`、`npm test` 和 `npm run build:portable-preview`。校内相关功能需要自行配置对应环境和账号，反馈与测试样例请使用虚构或经授权脱敏的数据。
+
+欢迎通过 Issue 讨论功能和问题，并通过 Pull Request 提交修复、文档或其他学院的适配。

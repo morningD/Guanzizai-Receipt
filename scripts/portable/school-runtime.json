@@ -1,0 +1,22 @@
+[
+  "tools/auto_bx_e2e_full.py",
+  "tools/auto_elab_csf_e2e.py",
+  "tools/auto_elab_hc_e2e.py",
+  "tools/credential-dpapi.ps1",
+  "tools/daily_bx_draft.py",
+  "tools/ecnu_treasury.py",
+  "tools/fetch_budget.py",
+  "tools/fetch_salary.py",
+  "tools/generate_labor_payroll.py",
+  "tools/invoice_queue_status.py",
+  "tools/office-preview.py",
+  "tools/open_bill.py",
+  "tools/print_elab_bill.py",
+  "tools/receipt_runtime.py",
+  "tools/requirements-school.txt",
+  "tools/submit_draft.py",
+  "tools/sync_elab_hc_status.py",
+  "tools/windows-materials.ps1",
+  "treasury_research/fetch_bill_status.py",
+  "treasury_research/poll_daily.py"
+]

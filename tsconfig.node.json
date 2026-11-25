@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "composite": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "noEmit": true
+  },
+  "include": [
+    "vite.config.ts",
+    "server/**/*.ts",
+    "scripts/portable/*.mjs",
+    "scripts/portable/school-runtime.json",
+    "package.json",
+    "src/import-naming.ts",
+    "src/classification-rules.ts",
+    "src/cloud-payment.ts",
+    "src/flight-segments.ts",
+    "src/amount-matching.ts",
+    "src/dedupe-expenses.ts",
+    "src/formal-model.ts",
+    "src/treasury-sync.ts",
+    "src/filename-utils.ts",
+    "src/trace.ts",
+    "src/log-settings.ts",
+    "src/df.ts",
+    "src/labor.ts",
+    "src/data.ts",
+    "src/evidence-search.ts",
+    "src/expense-taxonomy.ts",
+    "src/first-run.ts",
+    "src/node-registry.ts",
+    "src/reimbursement-policy.ts",
+    "src/types.ts",
+    "src/user-profile.ts",
+    "src/workflows.ts"
+  ]
+}

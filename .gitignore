@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env
+.env.*
+/data/
+/01_报销材料/
+/.guanzizai/
+/tmp/
+__pycache__/

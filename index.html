@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1b2924" />
+    <meta
+      name="description"
+      content="面向高校教师的本地发票整理、补件追踪与提交批次归档工作台"
+    />
+    <title>观自在 · 票据簿</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // 标签页休眠（Chrome Memory Saver）丢弃后台页后切回会白屏——自动重载一次自愈
+      document.addEventListener("visibilitychange", function () {
+        if (!document.hidden && !document.getElementById("root") || !document.hidden && document.getElementById("root") && document.getElementById("root").childElementCount === 0) {
+          location.reload();
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
